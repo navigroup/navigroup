@@ -1,4 +1,4 @@
-### Hi there 👋
+코드의 불법적인 사용은 법적 처벌을 받을 수 있습니다.
 
 <!--
 **navigroup/navigroup** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
