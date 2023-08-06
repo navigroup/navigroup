@@ -3,16 +3,19 @@ menu.innerHTML = `
 <header>
 <nav class="top">
     <a class="logo"  target="_self" >
-      <img id ="logo_img" src="img/navi_book.png" onclick="window.location.href='./index.html'" style="width:30px;height:30px">
-      <p class="logo-font" id="lgt" style="" onclick="window.location.href='./index.html'">나비스쿨출판</p>
-      <!-- <img alt="" src="img/logo_img.png" > -->
+      <img id ="logo_img" src="../img/navi_book.png" onclick="window.location.href='../index.html'" style="width:30px;height:30px">
+      <p class="logo-font" id="lgt" style="" onclick="window.location.href='../index.html'">나비스쿨출판</p>
+      <!-- <img alt="" src="../img/logo_img.png" > -->
     
     </a>
     <div class="menu-btn">
-        <button class="Event_Menu blink" style="padding-top:14px;"><a class="scroll mtext" href="#fm-box">무료 PDF 다운로드</a></button>
-       <button class="total_menu"><img src="img/hamburger.svg" style="width:17px;"></button>
+        <button class="Event_Menu blink" style="padding-top:14px;"><a class="scroll mtext" href="#fm-box">무료 뉴스레터</a></button>
+       <button class="total_menu"><img src="../img/hamburger.svg" style="width:17px;"></button>
     </div>
+
+    
 </nav>
+
 
 
 <div class="ham-con" data-depth="1"><!-- 메뉴 -->
@@ -28,9 +31,9 @@ menu.innerHTML = `
                 <p class="txt-cg">학생</p>
                 
                 <a class="logo"  target="_self" href="./index.html">
-                    <img id="menu_logo" src="img/navi_book.png" style="width:30px;height:30px;min-width:30px;margin-right:4px;margin-bottom:4px;">
+                    <img id="menu_logo" src="../img/navi_book.png" style="width:30px;height:30px;min-width:30px;margin-right:4px;margin-bottom:4px;">
                     <p class="logo-font" id="menu_text"  style="margin:0px;"> 나비스쿨출판</p>
-                  <!-- <img alt="" src="img/logo_img.png" > -->
+                  <!-- <img alt="" src="../img/logo_img.png" > -->
                 </a>
                 <p class="close-btn ham-close-btn" style="margin:14px 0px;"><svg viewBox="0 0 24 24" class="_SN-cw _SN-cx _SN-cy _SN-cz _SN-da _SN-db"><path stroke="currentColor" d="M4.222 4.222l15.556 15.556M4.222 19.778L19.778 4.222"></path></svg></p>
             </div>
@@ -42,44 +45,44 @@ menu.innerHTML = `
               
                 <div class="middle">
                     <ul class="left" style="padding-left:0px;margin-top:15px;">     
-                    <li><p><a target="_self" href="./index.html"><img src="img/favicon.png" style="width:20px;margin-right:4px;margin-bottom:4px;">HOME
+                    <li><p><a target="_self" href="./index.html"><img src="../img/favicon.png" style="width:20px;margin-right:4px;margin-bottom:4px;">HOME
                     <!-- <span class="blink menu_event"> 확언 질문집 PDF 무료제공</span>
                     <br><span class="menu_ex">[소망을 현실로 변화시키는 질문법]</span> -->
                     </a></p></li>
 
-                    <li><p><a target="_self" href="./about.html"><img src="img/favicon.png" style="width:20px;margin-right:4px;margin-bottom:4px;">ABOUT
+                    <li><p><a target="_self" href="./about.html"><img src="../img/favicon.png" style="width:20px;margin-right:4px;margin-bottom:4px;">ABOUT
                     <!-- <span class="blink menu_event"> 확언 질문집 PDF 무료제공</span>
                     <br><span class="menu_ex">[소망을 현실로 변화시키는 질문법]</span> -->
                     </a></p></li>
 
-                    <li><p><a target="_self" href="./publishing.html"><img src="img/favicon.png" style="width:20px;margin-right:4px;margin-bottom:4px;">나비스쿨 출판
+                    <li><p><a target="_self" href="./publishing.html"><img src="../img/favicon.png" style="width:20px;margin-right:4px;margin-bottom:4px;">나비스쿨 출판
                     <!-- <span class="blink menu_event"> 확언 질문집 PDF 무료제공</span>
                     <br><span class="menu_ex">[소망을 현실로 변화시키는 질문법]</span> -->
                     </a></p></li>
 
-                    <li><p><a target="_self" href="./program.html"><img src="img/favicon.png" style="width:20px;margin-right:4px;margin-bottom:4px;">PROGRAM
+                    <li><p><a target="_self" href="./program.html"><img src="../img/favicon.png" style="width:20px;margin-right:4px;margin-bottom:4px;">PROGRAM
                     <!-- <span class="blink menu_event"> 확언 질문집 PDF 무료제공</span>
                     <br><span class="menu_ex">[소망을 현실로 변화시키는 질문법]</span> -->
                     </a></p></li>
 
 
-                    <li><p><a target="_self" href="./navibooks.html"><img src="img/favicon.png" style="width:20px;margin-right:4px;margin-bottom:4px;">책추남TV 좋은책 살리기
+                    <li><p><a target="_self" href="./navibooks.html"><img src="../img/favicon.png" style="width:20px;margin-right:4px;margin-bottom:4px;">책추남TV 좋은책 살리기
                     <!-- <span class="blink menu_event"> 확언 질문집 PDF 무료제공</span>
                     <br><span class="menu_ex">[소망을 현실로 변화시키는 질문법]</span> -->
                     </a></p></li>
 
                               
-                    <li><p><a target="_self" href="./news-letter.html"><img src="img/favicon.png" style="width:20px;margin-right:4px;margin-bottom:4px;">뉴스레터 구독하기
+                    <li><p><a target="_self" href="./news-letter.html"><img src="../img/favicon.png" style="width:20px;margin-right:4px;margin-bottom:4px;">뉴스레터 구독하기
                     <!-- <span class="blink menu_event"> 확언 질문집 PDF 무료제공</span>
                     <br><span class="menu_ex">[소망을 현실로 변화시키는 질문법]</span> -->
                     </a></p></li>
 
 
-                    <li class="tab02" data-rel="menu-02" data-tit="나비스쿨"><img src="img/favicon.png" style="width:20px;margin-right:4px;margin-bottom:4px;"><p>나비스쿨 프로그램
+                    <li class="tab02" data-rel="menu-02" data-tit="나비스쿨"><img src="../img/favicon.png" style="width:20px;margin-right:4px;margin-bottom:16px;"><p>나비스쿨 프로그램
                     <!-- <span class="blink menu_event"> 무료 기출 문제</span> -->
-                    </p><img width="24" height="24" src="img/navigation.svg#light-primary" role="presentation" alt="" class="_SN-cu _SN-cv next_point" style="height:24px;margin-bottom:18px;"></li>
+                    </p><img width="24" height="24" src="../img/navigation.svg#light-primary" role="presentation" alt="" class="_SN-cu _SN-cv next_point" style="height:24px;margin-bottom:18px;"></li>
                                        
-                    <li class="tab02" data-rel="menu-01" data-tit="무료책 이벤트"><img src="img/favicon.png" style="width:20px;margin-right:4px;margin-bottom:4px;"><p>무료책 이벤트<span class="blink menu_event"> 샘플북 PDF 무료제공</span></p><img width="24" height="24" src="img/navigation.svg#light-primary" role="presentation" alt="" class="_SN-cu _SN-cv next_point"></li>
+                    <li class="tab02" data-rel="menu-01" data-tit="무료책 이벤트"><img src="../img/favicon.png" style="width:20px;margin-right:4px;margin-bottom:16px;"><p>무료책 이벤트<span class="blink menu_event"> 샘플북 PDF 무료제공</span></p><img width="24" height="24" src="../img/navigation.svg#light-primary" role="presentation" alt="" class="_SN-cu _SN-cv next_point"></li>
                      
           
              
@@ -133,32 +136,32 @@ menu.innerHTML = `
                         <li>[1학년 과정]</li>
                         <li><p><a target="_self" href="./offline-meeting.html">
                         
-                        <!-- <img src="img/lic_favicon.png" style="width:20px;margin-right:4px;margin-bottom:4px;"> -->
+                        <!-- <img src="../img/lic_favicon.png" style="width:20px;margin-right:4px;margin-bottom:4px;"> -->
                         
                         -  책추남 오프라인 정모 <span class="blink menu_event"> 매달 셋째주 토요일</span><br><span style="padding-left:5px;">[좋은 책과 새로운 사람들을 만나보세요.]</span></a></p></li>
 
                         <li>
                         <p><a target="_self" href="./online-meeting.html">
-                        <!-- <img src="img/lic_favicon.png" style="width:20px;margin-right:4px;margin-bottom:4px;"> -->
+                        <!-- <img src="../img/lic_favicon.png" style="width:20px;margin-right:4px;margin-bottom:4px;"> -->
                         -  책추남 온라인 정모 <span class="blink menu_event"> 매주 토요일 오전 7시</span><br><span style="padding-left:5px;">[책추남과 내공 깊은 책을 만날 수 있는 기회]</span></a></p>
                         </li>
 
                         <li><b>[2학년 과정]</b></li>
-                        <li><p><a target="_self" href="./booktuber.html">
+                        <li><p><a target="_self" href="./book-tuber.html">
                         
-                        <!-- <img src="img/lic_favicon.png" style="width:20px;margin-right:4px;margin-bottom:4px;"> -->
+                        <!-- <img src="../img/lic_favicon.png" style="width:20px;margin-right:4px;margin-bottom:4px;"> -->
                         
                         -  책추남처럼 북튜버 되기<span class="blink menu_event"> 매달 마지막주 토요일</span><br><span style="padding-left:5px;">[세상에서 가장 쉬운 북튜버 되는 방법]</span></a></p></li>
 
                         <li>
                         <p><a target="_self" href="./book-coaching.html">
-                        <!-- <img src="img/lic_favicon.png" style="width:20px;margin-right:4px;margin-bottom:4px;"> -->
+                        <!-- <img src="../img/lic_favicon.png" style="width:20px;margin-right:4px;margin-bottom:4px;"> -->
                         -  책추남 책 처방 코칭 <span class="blink menu_event"> </span><br><span style="padding-left:5px;">[현재 문제에 대한 최고의 책들을 처방해드립니다.]</span></a></p>
                         </li>
 
                         <li>
                         <p><a target="_self" href="./gamefull.html">
-                        <!-- <img src="img/lic_favicon.png" style="width:20px;margin-right:4px;margin-bottom:4px;"> -->
+                        <!-- <img src="../img/lic_favicon.png" style="width:20px;margin-right:4px;margin-bottom:4px;"> -->
                         -  게임풀싱킹 코칭 <span class="blink menu_event"> </span><br><span style="padding-left:5px;">[현재 문제에 대한 무의식적 통찰과 지혜를 끌어냅니다.]</span></a></p>
                         </li>
 
@@ -166,20 +169,20 @@ menu.innerHTML = `
                         <li>[3학년 과정]</li>
                         <li><p><a target="_self" href="./booksalon.html">
                         
-                        <!-- <img src="img/lic_favicon.png" style="width:20px;margin-right:4px;margin-bottom:4px;"> -->
+                        <!-- <img src="../img/lic_favicon.png" style="width:20px;margin-right:4px;margin-bottom:4px;"> -->
                         
                         -  책추남 북살롱 <span class="blink menu_event"></span><br><span style="padding-left:5px;">[책추남이 엄선한 책들로 하버드식, 하브르타식 독서 토론]</span></a></p></li>
 
                         <li>
                         <p><a target="_self" href="./messenger.html">
-                        <!-- <img src="img/lic_favicon.png" style="width:20px;margin-right:4px;margin-bottom:4px;"> -->
+                        <!-- <img src="../img/lic_favicon.png" style="width:20px;margin-right:4px;margin-bottom:4px;"> -->
                         -  메신저 코칭 스쿨 <span class="blink menu_event"> </span><br><span style="padding-left:5px;">[행복한 성공과 경제적 여유를 함께 만들어가는 수업]</span></a></p>
                         </li>
 
                         <li>[4학년 과정]</li>
                         <li><p><a target="_self" href="./life-changing.html">
                         
-                        <!-- <img src="img/lic_favicon.png" style="width:20px;margin-right:4px;margin-bottom:4px;"> -->
+                        <!-- <img src="../img/lic_favicon.png" style="width:20px;margin-right:4px;margin-bottom:4px;"> -->
                         
                         -  라이프 체인저 코칭 <span class="blink menu_event"></span><br><span style="padding-left:5px;">[진정한 자신의 삶을 위한 NAVI 스쿨 핵심 프로그램]</span></a></p></li>
 
