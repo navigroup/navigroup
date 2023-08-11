@@ -45,7 +45,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-  /* color: #0a98c0;
+  /* color: #0a98c0;  */
   outline: none;
   text-decoration: none; 
 }
@@ -73,14 +73,17 @@ h6 {
 }
 
 .intro-link{
-  color:#007bff;
-  font-weight: 500;
+    border: 1px solid #fff;
+    padding: 10px 50px;
+    color: #fff;
+    font-weight:500;
+    border-radius: 8px;
 }
 
 .intro-link:hover{
-  transition: 0.1s;
-  color:#007bff;
-  border-bottom:2px solid #007bff; 
+  transition: 0.7s;
+  background-color: rgba(0, 0, 0, 0.6);
+  color:#c2c2c2;
 }
 
 /* Back to top button */
@@ -1660,9 +1663,9 @@ font-weight: 350;
 
 #clients img {
   max-width: 80%;
-  opacity: 0.5;
-  transition: 0.3s;
-  padding: 15px 0;
+  opacity: 0.9;
+  transition: 0.5s;
+  padding: 0;
 }
 
 #clients img:hover {
@@ -1671,7 +1674,7 @@ font-weight: 350;
 
 #clients .owl-nav,
 #clients .owl-dots {
-  margin-top: 5px;
+  margin-top: 45px;
   text-align: center;
 }
 

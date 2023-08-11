@@ -156,7 +156,7 @@ html, body {font-family:"NotoSansCJK", sans-serif; word-break:keep-all; width:10
 	
 	  .intro_tag{
 		color:white;
-		font-size:44px;
+		font-size:34px;
 		font-weight: 700;
 	  }
 
@@ -164,7 +164,7 @@ html, body {font-family:"NotoSansCJK", sans-serif; word-break:keep-all; width:10
 
 @media (max-width:500px) {
     .intro-blank .box-img {display: flex; justify-content: center;}
-    .intro-blank .box-img img {width: auto; margin-left: 12%; }
+    .intro-blank .box-img img {width: 100%; }
 }
 
 @media (max-width:480px) {
