@@ -117,7 +117,7 @@ header .ham-con .container-box .wrap .menu03 {overflow-y: scroll;}
 
 header .ham-con .menu .middle {}
 header .ham-con .menu .middle ul {}
-header .ham-con .menu .middle ul li { padding: 10px 25px; display: flex; align-items: center; justify-content: space-between; cursor: pointer;line-height:1.4;letter-spacing: -1px;}
+header .ham-con .menu .middle ul li { padding: 20px 25px; display: flex; align-items: center; justify-content: space-between; cursor: pointer;line-height:1.4;letter-spacing: -1px;}
 header .ham-con .menu .middle ul li p,
 header .ham-con .menu .middle ul li a {display: block;width: 100%;font-size: 15px; line-height: 80%;font-weight: 400;}
 header .ham-con .menu .middle ul li:hover {background-color: #fafafa;}
