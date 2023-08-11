@@ -10,7 +10,7 @@ $('.total_menu').click(function(){//메뉴열기//
 $('.ham-close-btn').click(function(){ //메뉴 닫기// 
     $('.wrap').stop().animate({'margin-left' : '0%'})
     $('header .ham-con').removeClass("on");
-    // $('body').css('overflow-y','scroll');	
+    $('body').css('overflow-y','scroll');	
     $('header .ham-con .container-box > .top').removeClass('on')
     setTimeout(function() {
         $('.ham-con').hide();
@@ -19,7 +19,7 @@ $('.ham-close-btn').click(function(){ //메뉴 닫기//
 
 $('.bg').click(function(){//메뉴 컨텐츠 외 클릭시 닫힘
     $('.wrap').stop().animate({'margin-left' : '0%'})
-    // $('body').css('overflow-y','scroll');	
+    $('body').css('overflow-y','scroll');	
     $('header .ham-con .container-box > .top').removeClass('on')
     $('header .ham-con').removeClass("on");
     setTimeout(function() {
