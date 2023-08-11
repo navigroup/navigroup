@@ -80,9 +80,9 @@ menu.innerHTML = `
 
                     <li class="tab02" data-rel="menu-02" data-tit="나비스쿨"><img src="../img/favicon.png" style="width:20px;margin-right:4px;margin-bottom:16px;"><p>나비스쿨 프로그램
                     <!-- <span class="blink menu_event"> 무료 기출 문제</span> -->
-                    </p><img width="24" height="24" src="../img/navigation.svg#light-primary" role="presentation" alt="" class="_SN-cu _SN-cv next_point" style="height:24px;margin-bottom:18px;"></li>
+                    </p><img width="24" height="24" src="../img/navigation.svg#light-primary" role="presentation" alt="" class="_SN-cu _SN-cv next_point" style="height:24px;"></li>
                                        
-                    <li class="tab02" data-rel="menu-01" data-tit="무료책 이벤트"><img src="../img/favicon.png" style="width:20px;margin-right:4px;margin-bottom:16px;"><p>무료책 이벤트<span class="blink menu_event"> 샘플북 PDF 무료제공</span></p><img width="24" height="24" src="../img/navigation.svg#light-primary" role="presentation" alt="" class="_SN-cu _SN-cv next_point"></li>
+                    <li class="tab02" data-rel="menu-01" data-tit="무료책 이벤트"><img src="../img/favicon.png" style="width:20px;margin-right:4px;"><p>무료책 이벤트<span class="blink menu_event"> 샘플북 PDF 무료제공</span></p><img width="24" height="24" src="../img/navigation.svg#light-primary" role="presentation" alt="" class="_SN-cu _SN-cv next_point"></li>
                      
           
              
