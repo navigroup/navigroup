@@ -3,14 +3,14 @@ menu.innerHTML = `
 <header>
 <nav class="top">
     <a class="logo"  target="_self" >
-      <img id ="logo_img" src="../img/navi_book.png" onclick="window.location.href='../index.html'" style="width:30px;height:30px">
+      <img id ="logo_img" src="./img/navi_book.png" onclick="window.location.href='./index.html'" style="width:30px;height:30px">
       <p class="logo-font" id="lgt" style="" onclick="window.location.href='../index.html'">나비스쿨출판</p>
       <!-- <img alt="" src="../img/logo_img.png" > -->
     
     </a>
     <div class="menu-btn">
-        <button class="Event_Menu blink" style="padding-top:14px;"><a class="scroll mtext" href="#fm-box">무료 뉴스레터</a></button>
-       <button class="total_menu"><img src="../img/hamburger.svg" style="width:17px;"></button>
+        <button class="Event_Menu blink" style="padding-top:14px;"><a class="scroll mtext" href="#fm-box">무료 PDF 다운로드</a></button>
+       <button class="total_menu"><img src="./img/hamburger.svg" style="width:17px;"></button>
     </div>
 
     
